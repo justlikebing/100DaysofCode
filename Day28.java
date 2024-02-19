@@ -1,5 +1,32 @@
-public class Day28{
-    public static void main(String[] args){
-        System.out.println("Hello");
+import java.util.HashMap;
+import java.util.Map;
+
+public class Day28 {
+
+    private static Map<Integer, Integer> memoizationMap = new HashMap<>();
+
+    // Recursive function to calculate the nth Fibonacci number
+    private static int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        }
+
+        // Check if the value is already computed
+        if (memoizationMap.containsKey(n)) {
+            return memoizationMap.get(n);
+        }
+
+        int fibValue = fibonacci(n - 1) + fibonacci(n - 2);
+        memoizationMap.put(n, fibValue);
+
+        return fibValue;
+    }
+
+    public static void main(String[] args) {
+        int n = 10; // Change n to the desired Fibonacci sequence index
+
+        int result = fibonacci(n);
+
+        System.out.println("The " + n + "th Fibonacci number is: " + result);
     }
 }
