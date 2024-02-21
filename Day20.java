@@ -6,15 +6,12 @@ public class Day20 {
     private Stack<Integer> stack2 = new Stack<>();
 
     public void enqueue(int item) {
-        // Move all elements from stack1 to stack2
         while (!stack1.isEmpty()) {
             stack2.push(stack1.pop());
         }
 
-        // Push the new item onto stack1
         stack1.push(item);
 
-        // Move all elements back to stack1
         while (!stack2.isEmpty()) {
             stack1.push(stack2.pop());
         }
