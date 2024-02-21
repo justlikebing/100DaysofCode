@@ -29,17 +29,17 @@ public class Day16 {
         node = node.children[ch - 'a'];
         if (node.word != null) {
             result.add(node.word);
-            node.word = null; // To avoid duplicate entries
+            node.word = null; 
         }
 
-        board[i][j] = '#'; // Mark the cell as visited
+        board[i][j] = '#'; 
 
         if (i > 0) search(board, i - 1, j, node, result);
         if (i < board.length - 1) search(board, i + 1, j, node, result);
         if (j > 0) search(board, i, j - 1, node, result);
         if (j < board[0].length - 1) search(board, i, j + 1, node, result);
 
-        board[i][j] = ch; // Backtrack
+        board[i][j] = ch; 
     }
 
     public List<String> findWords(char[][] board, String[] words) {
