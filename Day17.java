@@ -11,11 +11,11 @@ public class Day17 {
             } else if (!stack.isEmpty() && isMatchingPair(stack.peek(), ch)) {
                 stack.pop();
             } else {
-                return false; // Invalid parentheses
+                return false; 
             }
         }
 
-        return stack.isEmpty(); // The string is valid if the stack is empty at the end
+        return stack.isEmpty(); 
     }
 
     private boolean isMatchingPair(char open, char close) {
