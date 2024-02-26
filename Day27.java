@@ -12,13 +12,11 @@ class Graph {
         }
     }
 
-    // Method to add an edge between two vertices
     public void addEdge(int source, int destination) {
         adjacencyList.get(source).add(destination);
         adjacencyList.get(destination).add(source); // For undirected graph
     }
 
-    // Method to find the shortest path using Breadth-First Search (BFS)
     public List<Integer> shortestPath(int startVertex, int endVertex) {
         Queue<Integer> queue = new LinkedList<>();
         Map<Integer, Integer> parentMap = new HashMap<>();
