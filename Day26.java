@@ -1,11 +1,9 @@
 import java.util.*;
 
-// Graph class with adjacency list representation
 class Graph {
     private int vertices;
     private Map<Integer, List<Integer>> adjacencyList;
 
-    // Constructor to initialize the graph with a given number of vertices
     public Graph(int vertices) {
         this.vertices = vertices;
         this.adjacencyList = new HashMap<>();
@@ -14,13 +12,11 @@ class Graph {
         }
     }
 
-    // Method to add an edge between two vertices
     public void addEdge(int source, int destination) {
         adjacencyList.get(source).add(destination);
         adjacencyList.get(destination).add(source); // For undirected graph
     }
 
-    // Depth-First Search (DFS) traversal
     public void dfsTraversal(int startVertex) {
         Set<Integer> visited = new HashSet<>();
         System.out.println("DFS Traversal starting from vertex " + startVertex + ":");
@@ -28,7 +24,6 @@ class Graph {
         System.out.println();
     }
 
-    // Helper method for DFS traversal
     private void dfsHelper(int vertex, Set<Integer> visited) {
         visited.add(vertex);
         System.out.print(vertex + " ");
