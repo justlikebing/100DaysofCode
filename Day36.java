@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class StringPatternMatching {
+class Day36 {
 
     public static List<Integer> findOccurrences(String text, String pattern) {
         List<Integer> occurrences = new ArrayList<>();
