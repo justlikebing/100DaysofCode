@@ -5,13 +5,11 @@ public class Day28 {
 
     private static Map<Integer, Integer> memoizationMap = new HashMap<>();
 
-    // Recursive function to calculate the nth Fibonacci number
     private static int fibonacci(int n) {
         if (n <= 1) {
             return n;
         }
 
-        // Check if the value is already computed
         if (memoizationMap.containsKey(n)) {
             return memoizationMap.get(n);
         }
