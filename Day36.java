@@ -9,14 +9,12 @@ class StringPatternMatching {
         int m = pattern.length();
 
         if (m > n) {
-            return occurrences; // Pattern is longer than the text, no occurrences possible
+            return occurrences; 
         }
 
-        // Calculate hash values for the pattern and the first substring of text
         long patternHash = calculateHash(pattern);
         long textHash = calculateHash(text.substring(0, m));
 
-        // Check if the hash values match for the first substring
         if (patternHash == textHash && pattern.equals(text.substring(0, m))) {
             occurrences.add(1); // Pattern found at the beginning
         }
@@ -27,12 +25,10 @@ class StringPatternMatching {
             power = (power * 256) % 101; // 101 is a prime number
         }
 
-        // Slide the pattern over the text and check for matches using rolling hash
         for (int i = 1; i <= n - m; i++) {
             textHash = (textHash + 101 - (text.charAt(i - 1) * power) % 101) % 101; // Remove the leftmost character
             textHash = (textHash * 256 + text.charAt(i + m - 1)) % 101; // Add the next character
 
-            // Check if the hash values match and the substrings are equal
             if (patternHash == textHash && pattern.equals(text.substring(i, i + m))) {
                 occurrences.add(i + 1); // Pattern found at position i+1
             }
