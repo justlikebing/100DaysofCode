@@ -41,14 +41,12 @@ public class BinaryTreeWidth {
                     queue.offer(current.left);
                     queue.offer(current.right);
                 } else {
-                    // If the node is null, still enqueue null nodes to maintain the correct index
                     queue.offer(null);
                     queue.offer(null);
                 }
             }
 
             if (leftmostIndex != -1) {
-                // Calculate the width for the current level and update the maximum width
                 int currentWidth = rightmostIndex - leftmostIndex + 1;
                 maxWidth = Math.max(maxWidth, currentWidth);
             }
