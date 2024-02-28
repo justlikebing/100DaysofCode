@@ -1,28 +1,23 @@
 import java.util.LinkedList;
 import java.util.Queue;
-
 class TreeNode {
     int val;
     TreeNode left, right;
-    
     public TreeNode(int val) {
         this.val = val;
         this.left = this.right = null;
     }
 }
-
 public class BinaryTreeWidth {
 
     public int maxWidth(TreeNode root) {
         if (root == null) {
             return 0;
         }
-
         int maxWidth = 0;
 
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-
         while (!queue.isEmpty()) {
             int levelSize = queue.size();
             int leftmostIndex = -1; // Initialize leftmost index for the current level
@@ -62,7 +57,6 @@ public class BinaryTreeWidth {
         root.right = new TreeNode(3);
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-
         int maxWidth = solution.maxWidth(root);
         System.out.println("Maximum Width: " + maxWidth); // Output: 2
     }
