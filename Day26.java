@@ -46,8 +46,6 @@ public class Day26 {
         graph.addEdge(1, 4);
         graph.addEdge(2, 5);
         graph.addEdge(2, 6);
-
-        // Perform DFS traversal starting from vertex 0
         graph.dfsTraversal(0);
     }
 }
