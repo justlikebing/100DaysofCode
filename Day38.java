@@ -23,7 +23,6 @@ public class Day38 {
             meetings.add(new Meeting(start[i], end[i], i + 1));
         }
 
-        // Sort meetings based on their end time
         meetings.sort(Comparator.comparingInt(m -> m.end));
 
         List<Integer> result = new ArrayList<>();
