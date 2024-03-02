@@ -37,7 +37,7 @@ public class Day40 {
     }
 
     public static void main(String[] args) {
-        PalindromePartitioning solution = new PalindromePartitioning();
+        Day40 solution = new Day40();
         
         // Example 1
         String s1 = "aab";
