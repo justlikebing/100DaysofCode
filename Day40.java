@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PalindromePartitioning {
+public class Day40 {
 
     public List<List<String>> partition(String s) {
         List<List<String>> result = new ArrayList<>();
