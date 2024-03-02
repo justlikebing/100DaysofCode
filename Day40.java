@@ -39,13 +39,11 @@ public class Day40 {
     public static void main(String[] args) {
         Day40 solution = new Day40();
         
-        // Example 1
         String s1 = "aab";
         List<List<String>> result1 = solution.partition(s1);
         System.out.println("Example 1:");
         System.out.println(result1);
         
-        // Example 2
         String s2 = "a";
         List<List<String>> result2 = solution.partition(s2);
         System.out.println("Example 2:");
