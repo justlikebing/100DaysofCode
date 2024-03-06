@@ -1,4 +1,4 @@
-public class MatrixChainMultiplication {
+public class Day43 {
 
     public static int matrixChainOrder(int[] arr) {
         int n = arr.length - 1; 
