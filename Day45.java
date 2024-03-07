@@ -15,7 +15,6 @@ class MedianFinder {
 
         minHeap.offer(maxHeap.poll()); 
 
-        // Balance the sizes of max and min heaps
         if (maxHeap.size() < minHeap.size()) {
             maxHeap.offer(minHeap.poll());
         }
@@ -26,7 +25,6 @@ class MedianFinder {
             // If the size is even, return the average of the two middle elements
             return (maxHeap.peek() + minHeap.peek()) / 2.0;
         } else {
-            // If the size is odd, return the middle element
             return maxHeap.peek();
         }
     }
