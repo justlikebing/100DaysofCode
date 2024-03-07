@@ -2,8 +2,8 @@ import java.util.PriorityQueue;
 
 class MedianFinder {
 
-    PriorityQueue<Integer> maxHeap; // Max heap for the smaller half
-    PriorityQueue<Integer> minHeap; // Min heap for the larger half
+    PriorityQueue<Integer> maxHeap; 
+    PriorityQueue<Integer> minHeap; 
 
     public MedianFinder() {
         maxHeap = new PriorityQueue<>((a, b) -> b - a);
@@ -11,9 +11,9 @@ class MedianFinder {
     }
 
     public void addNum(int num) {
-        maxHeap.offer(num); // Add to max heap
+        maxHeap.offer(num); 
 
-        minHeap.offer(maxHeap.poll()); // Move the maximum of max heap to min heap
+        minHeap.offer(maxHeap.poll()); 
 
         // Balance the sizes of max and min heaps
         if (maxHeap.size() < minHeap.size()) {
