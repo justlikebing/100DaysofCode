@@ -16,10 +16,8 @@ public class Day50 {
             int mid = left + (right - left) / 2;
 
             if (canCutLogs(logs, axes, logCuttingStandCapacity, mid)) {
-                // If logs can be cut with the current mid value, try smaller values
                 right = mid - 1;
             } else {
-                // If logs cannot be cut with the current mid value, try larger values
                 left = mid + 1;
             }
         }
