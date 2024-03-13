@@ -15,7 +15,6 @@ public class Day51 {
                 time[i] = scanner.nextInt();
             }
             
-            // Apply binary search to find the minimum possible value of maximum time Ayush studies in a day
             int low = 0;
             int high = (int) Math.pow(10, 9); // maximum possible time
             
@@ -33,14 +32,13 @@ public class Day51 {
         }
     }
     
-    // Function to check if it is possible to complete all chapters within 'N' days with given constraint
     private static boolean isPossible(int[] time, int n, int maxTime) {
         int days = 1;
         int currentWorkload = 0;
         
         for (int t : time) {
             if (t > maxTime) {
-                return false; // if time required for any chapter exceeds maximum time, it's not possible
+                return false; 
             }
             
             if (currentWorkload + t > maxTime) {
@@ -51,6 +49,6 @@ public class Day51 {
             currentWorkload += t;
         }
         
-        return days <= n; // return true if chapters can be completed within 'N' days
+        return days <= n; 
     }
 }
