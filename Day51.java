@@ -7,16 +7,16 @@ public class Day51 {
         int t = scanner.nextInt(); 
         
         while (t-- > 0) {
-            int n = scanner.nextInt(); // number of days
-            int m = scanner.nextInt(); // number of chapters
-            int[] time = new int[m]; // array to store time required for each chapter
+            int n = scanner.nextInt();
+            int m = scanner.nextInt(); 
+            int[] time = new int[m]; 
             
             for (int i = 0; i < m; i++) {
                 time[i] = scanner.nextInt();
             }
             
             int low = 0;
-            int high = (int) Math.pow(10, 9); // maximum possible time
+            int high = (int) Math.pow(10, 9); 
             
             while (low < high) {
                 int mid = low + (high - low) / 2;
@@ -28,7 +28,7 @@ public class Day51 {
                 }
             }
             
-            System.out.println(low); // print the result
+            System.out.println(low);
         }
     }
     
