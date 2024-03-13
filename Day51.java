@@ -4,7 +4,7 @@ public class Day51 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int t = scanner.nextInt(); // number of test cases
+        int t = scanner.nextInt(); 
         
         while (t-- > 0) {
             int n = scanner.nextInt(); // number of days
