@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UniquePaths {
+public class Day53 {
     
     public static int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
@@ -24,7 +24,7 @@ public class UniquePaths {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int T = scanner.nextInt(); // Number of test cases
+        int T = scanner.nextInt(); 
         
         for (int t = 0; t < T; t++) {
             int M = scanner.nextInt(); 
