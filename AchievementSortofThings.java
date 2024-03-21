@@ -1,2 +1,1 @@
-/* Anas bhai
-we Are doing Good*/
+//this file is sent by Kumar Dev
