@@ -63,7 +63,6 @@ public class Day64 {
             }
         }
 
-        // Zero out marked columns
         for (int j = 1; j < M; j++) {
             if (matrix[0][j] == 0) {
                 for (int i = 1; i < N; i++) {
@@ -72,7 +71,6 @@ public class Day64 {
             }
         }
 
-        // Zero out first row if needed
         if (firstRowHasZero) {
             for (int j = 0; j < M; j++) {
                 matrix[0][j] = 0;
