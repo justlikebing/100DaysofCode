@@ -1,6 +1,5 @@
 public class Day91 {
     public static void recursiveInsertionSort(int[] arr, int n) {
-        // Base case: If array has only one element or is empty, it is already sorted
         if (n <= 1) {
             return;
         }
