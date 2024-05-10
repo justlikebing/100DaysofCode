@@ -14,7 +14,6 @@ class Day1{
             
             }
         
-
         }
         return maxProfit;
     }
