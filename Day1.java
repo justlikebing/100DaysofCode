@@ -1,6 +1,5 @@
 class Day1{
     public static void main(String[] args){
-
     }
     public int maxProfit(int[] prices){
         int minprize = Integer.MAX_VALUE;
