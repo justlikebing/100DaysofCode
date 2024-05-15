@@ -1,5 +1,4 @@
 import java.util.PriorityQueue;
-
 class MedianFinder {
 
     PriorityQueue<Integer> maxHeap; 
