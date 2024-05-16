@@ -2,7 +2,6 @@ import java.util.Stack;
 public class Day17 {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-
         for (char ch : s.toCharArray()) {
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
