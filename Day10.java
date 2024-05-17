@@ -1,6 +1,5 @@
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-
+import java.security.NoSuchAlgorithmException;
 public class Day10 {
 
     public static String hashString(String input) {
