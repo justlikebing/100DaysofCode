@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Day11 {
+public class Day11{
     private static int simpleHash(String input) {
         char[] charArray = input.toCharArray();
         Arrays.sort(charArray);
