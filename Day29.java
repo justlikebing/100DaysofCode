@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Day29 {
 
     public static boolean hasCycle(int V, List<List<Integer>> adj) {
