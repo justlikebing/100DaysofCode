@@ -1,6 +1,5 @@
 import java.util.*;
-public class Day39 {
-    
+public class Day39 {   
     static int findMaxXOR(int[] arr, int Xi, int Ai) {
         int max = -1;
         
