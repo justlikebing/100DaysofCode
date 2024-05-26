@@ -1,5 +1,4 @@
-import java.util.Arrays;
-
+import java.util.Arrays;
 public class Day13 {
     public static int minCoins(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
