@@ -12,7 +12,7 @@ public class Day63 {
         for (int[] job : jobs) {
             for (int j = Math.min(maxDeadline - 1, job[1] - 1); j >= 0; j--) {
                 if (!slots[j]) { 
-                    slots[j] = true; // Mark the slot as filled
+                    slots[j] = true; 
                     totalProfit += job[2]; // Add the profit of the completed job
                     count++; // Increment the count of completed jobs
                     break;
