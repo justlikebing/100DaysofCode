@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class Day63 {
-
     public static int[] getMaxProfitJobs(int[][] jobs) {
         Arrays.sort(jobs, (a, b) -> Integer.compare(b[2], a[2])); // Sort jobs by profit in descending order
         int maxDeadline = 0;
