@@ -24,7 +24,7 @@ public class Day63 {
     public static void main(String[] args) {
         int[][] jobs1 = {{1, 2, 30}, {2, 2, 40}, {3, 1, 10}, {4, 1, 10}};
         int[] result1 = getMaxProfitJobs(jobs1);
-        System.out.println(Arrays.toString(result1)); // Output: [2, 70]
+        System.out.println(Arrays.toString(result1)); 
 
         int[][] jobs2 = {{1, 1, 40}, {2, 1, 50}, {3, 1, 60}};
         int[] result2 = getMaxProfitJobs(jobs2);
