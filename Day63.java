@@ -21,7 +21,6 @@ public class Day63 {
         }
         return new int[]{count, totalProfit};
     }
-
     public static void main(String[] args) {
         int[][] jobs1 = {{1, 2, 30}, {2, 2, 40}, {3, 1, 10}, {4, 1, 10}};
         int[] result1 = getMaxProfitJobs(jobs1);
