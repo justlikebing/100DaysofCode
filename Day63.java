@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Day63 {
     public static int[] getMaxProfitJobs(int[][] jobs) {
-        Arrays.sort(jobs, (a, b) -> Integer.compare(b[2], a[2])); // Sort jobs by profit in descending order
+        Arrays.sort(jobs, (a, b) -> Integer.compare(b[2], a[2])); 
         int maxDeadline = 0;
         for (int[] job : jobs) {
             maxDeadline = Math.max(maxDeadline, job[1]); // Find the maximum deadline among all jobs
