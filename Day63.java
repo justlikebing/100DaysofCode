@@ -6,7 +6,7 @@ public class Day63 {
         for (int[] job : jobs) {
             maxDeadline = Math.max(maxDeadline, job[1]); 
         }
-        boolean[] slots = new boolean[maxDeadline]; // Create an array to track available slots
+        boolean[] slots = new boolean[maxDeadline]; 
         int totalProfit = 0;
         int count = 0;
         for (int[] job : jobs) {
