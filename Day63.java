@@ -14,7 +14,7 @@ public class Day63 {
                 if (!slots[j]) { 
                     slots[j] = true; 
                     totalProfit += job[2]; 
-                    count++; // Increment the count of completed jobs
+                    count++; 
                     break;
                 }
             }
