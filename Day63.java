@@ -4,7 +4,7 @@ public class Day63 {
         Arrays.sort(jobs, (a, b) -> Integer.compare(b[2], a[2])); 
         int maxDeadline = 0;
         for (int[] job : jobs) {
-            maxDeadline = Math.max(maxDeadline, job[1]); // Find the maximum deadline among all jobs
+            maxDeadline = Math.max(maxDeadline, job[1]); 
         }
         boolean[] slots = new boolean[maxDeadline]; // Create an array to track available slots
         int totalProfit = 0;
