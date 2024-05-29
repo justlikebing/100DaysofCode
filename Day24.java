@@ -21,8 +21,7 @@ public class Day24 {
     public boolean startsWith(String prefix) {
         return searchNode(prefix) != null;
     }
-
-    private TrieNode searchNode(String word) {
+       private TrieNode searchNode(String word) {
         TrieNode node = root;
         for (char c : word.toCharArray()) {
             int index = c - 'a';
@@ -33,7 +32,6 @@ public class Day24 {
         }
         return node;
     }
-
     public static void main(String[] args) {
         Day24 trie = new Day24();
         trie.insert("apple");
@@ -45,7 +43,6 @@ public class Day24 {
         System.out.println("Starts with 'ap': " + trie.startsWith("ap")); // Output: true
     }
 }
-
 class TrieNode {
     char value;
     boolean isEnd;
