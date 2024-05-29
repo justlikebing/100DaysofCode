@@ -3,7 +3,6 @@ public class Day24 {
     public Day24() {
         root = new TrieNode('\0'); 
     }
-    // Method to insert a word into the Trie
     public void insert(String word) {
         TrieNode node = root;
         for (char c : word.toCharArray()) {
