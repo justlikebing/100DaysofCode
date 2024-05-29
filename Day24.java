@@ -39,7 +39,7 @@ public class Day24 {
         trie.insert("apricot");
 
         System.out.println("Search for 'app': " + trie.search("app")); 
-        System.out.println("Search for 'orange': " + trie.search("orange")); // Output: false
+        System.out.println("Search for 'orange': " + trie.search("orange")); 
         System.out.println("Starts with 'ap': " + trie.startsWith("ap")); // Output: true
     }
 }
