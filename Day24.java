@@ -1,6 +1,5 @@
 public class Day24 {
     private TrieNode root;
-
     public Day24() {
         root = new TrieNode('\0'); 
     }
