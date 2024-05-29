@@ -14,7 +14,7 @@ public class Day24 {
         }
         node.isEnd = true; 
     }
-    // Method to search for a word in the Trie
+
     public boolean search(String word) {
         TrieNode node = searchNode(word);
         return node != null && node.isEnd;
