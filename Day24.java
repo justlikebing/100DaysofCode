@@ -18,7 +18,6 @@ public class Day24 {
         TrieNode node = searchNode(word);
         return node != null && node.isEnd;
     }
-
     public boolean startsWith(String prefix) {
         return searchNode(prefix) != null;
     }
