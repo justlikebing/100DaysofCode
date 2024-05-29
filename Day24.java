@@ -12,7 +12,7 @@ public class Day24 {
             }
             node = node.children[index];
         }
-        node.isEnd = true; // Mark the end of the word
+        node.isEnd = true; 
     }
 
     // Method to search for a word in the Trie
