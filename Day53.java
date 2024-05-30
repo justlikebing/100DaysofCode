@@ -21,8 +21,7 @@ public class Day53 {
         
         for (int t = 0; t < T; t++) {
             int M = scanner.nextInt(); 
-            int N = scanner.nextInt(); 
-            
+            int N = scanner.nextInt();    
             System.out.println(uniquePaths(M, N));
         }
         scanner.close();
