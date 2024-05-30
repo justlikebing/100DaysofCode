@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Day53 {
     
     public static int uniquePaths(int m, int n) {
