@@ -11,7 +11,6 @@ public class Day30 {
                 }
             }
         }
-
         return dp[n][capacity];
     }
 
