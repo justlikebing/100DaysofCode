@@ -13,7 +13,6 @@ public class Day30 {
         }
         return dp[n][capacity];
     }
-
     public static void main(String[] args) {
         int[] weights = {2, 3, 4, 5};
         int[] values = {3, 4, 5, 6};
