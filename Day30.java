@@ -17,7 +17,6 @@ public class Day30 {
         int[] weights = {2, 3, 4, 5};
         int[] values = {3, 4, 5, 6};
         int capacity = 5;
-
         int maxValue = knapsack(weights, values, capacity);
         System.out.println("Maximum value in Knapsack: " + maxValue);
     }
