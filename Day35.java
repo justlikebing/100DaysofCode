@@ -6,7 +6,6 @@ public class Day35 {
         for (int i = 0; i < maxLength; i++) {
             int num1 = i < v1.length ? Integer.parseInt(v1[i]) : 0;
             int num2 = i < v2.length ? Integer.parseInt(v2[i]) : 0;
-
             if (num1 < num2) {
                 return -1;
             } else if (num1 > num2) {
