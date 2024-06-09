@@ -1,6 +1,5 @@
 import java.util.*;
 public class Day29 {
-
     public static boolean hasCycle(int V, List<List<Integer>> adj) {
         boolean[] visited = new boolean[V];
         boolean[] recursionStack = new boolean[V];
