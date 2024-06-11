@@ -4,7 +4,6 @@ public class Day67 {
         String longestCommonPrefix = longestCommonPrefix(arr);
         System.out.println("Longest Common Prefix: " + longestCommonPrefix);
     }
-
     public static String longestCommonPrefix(String[] arr) {
         if (arr == null || arr.length == 0) {
             return "";
