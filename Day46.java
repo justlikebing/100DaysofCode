@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.List;
 import java.util.ArrayList;
-
 class Pair implements Comparable<Pair> {
     int vertex;
     int distance;
