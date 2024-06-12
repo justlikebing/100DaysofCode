@@ -5,7 +5,6 @@ import java.util.ArrayList;
 class Pair implements Comparable<Pair> {
     int vertex;
     int distance;
-
     public Pair(int vertex, int distance) {
         this.vertex = vertex;
         this.distance = distance;
