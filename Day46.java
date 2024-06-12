@@ -15,7 +15,6 @@ class Pair implements Comparable<Pair> {
     }
 }
 public class Day46 {
-
     public static List<Integer> shortestPath(int V, List<List<int[]>> adj, int S) {
         List<Integer> distances = new ArrayList<>();
         PriorityQueue<Pair> minHeap = new PriorityQueue<>();
