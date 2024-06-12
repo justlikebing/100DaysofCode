@@ -42,7 +42,6 @@ public class Day46 {
 
         return distances;
     }
-
     public static void main(String[] args) {
         int V = 2;
         List<List<int[]>> adj = new ArrayList<>();
