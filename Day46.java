@@ -9,7 +9,6 @@ class Pair implements Comparable<Pair> {
         this.vertex = vertex;
         this.distance = distance;
     }
-
     @Override
     public int compareTo(Pair other) {
         return Integer.compare(this.distance, other.distance);
