@@ -14,7 +14,6 @@ class Pair implements Comparable<Pair> {
         return Integer.compare(this.distance, other.distance);
     }
 }
-
 public class Day46 {
 
     public static List<Integer> shortestPath(int V, List<List<int[]>> adj, int S) {
