@@ -19,7 +19,6 @@ public class Day55 {
         
         return maxLength;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt(); 
