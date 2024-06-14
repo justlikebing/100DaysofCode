@@ -4,7 +4,6 @@ public class Day55 {
         int maxLength = 0;
         int sum = 0;
         Map<Integer, Integer> map = new HashMap<>(); 
-        
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
             
