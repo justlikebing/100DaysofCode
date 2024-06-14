@@ -6,7 +6,6 @@ public class Day55 {
         Map<Integer, Integer> map = new HashMap<>(); 
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
-            
             if (sum == 0) {
                 maxLength = i + 1;
             } else {
