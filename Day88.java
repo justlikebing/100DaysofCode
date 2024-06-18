@@ -14,7 +14,6 @@ public class Day88 {
         int a = 1, b = 2, c = 1, d = 3, e = 2, f = 3;
         System.out.print(getXOR(a, b) + " ");
         System.out.print(getBit(c, d) + " ");
-        
         System.out.println(setBit(e, f));
     }
 }
