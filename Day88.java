@@ -6,7 +6,6 @@ public class Day88 {
         int mask = 1 << c;
         return (d & mask) == 0 ? 0 : 1;
     }
-
     public static int setBit(int e, int f) {
         int mask = 1 << e;
         return f | mask;
