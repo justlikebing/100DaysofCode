@@ -2,7 +2,6 @@ public class Day88 {
     public static int getXOR(int a, int b) {
         return a ^ b;
     }
-
     public static int getBit(int c, int d) {
         int mask = 1 << c;
         return (d & mask) == 0 ? 0 : 1;
