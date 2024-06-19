@@ -7,7 +7,6 @@ public class Day78 {
             insertAtRightPlace(stack, temp);
         }
     }
-
     private static void insertAtRightPlace(Stack<Integer> stack, int element) {
         if (stack.isEmpty() || stack.peek() <= element) {
             stack.push(element);
