@@ -1,7 +1,6 @@
 import java.util.Stack;
 
 public class Day78 {
-
     public static void sortStack(Stack<Integer> stack) {
         if (!stack.isEmpty()) {
             int temp = stack.pop();
