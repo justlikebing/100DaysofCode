@@ -1,5 +1,4 @@
 public class Day32 {
-
     public static int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         int originalColor = image[sr][sc];
         if (originalColor == newColor) {
