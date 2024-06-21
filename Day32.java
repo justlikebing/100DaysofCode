@@ -8,7 +8,6 @@ public class Day32 {
         fill(image, sr, sc, originalColor, newColor);
         return image;
     }
-
     private static void fill(int[][] image, int row, int col, int originalColor, int newColor) {
         if (row < 0 || row >= image.length || col < 0 || col >= image[0].length || image[row][col] != originalColor) {
 
