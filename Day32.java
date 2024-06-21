@@ -13,8 +13,6 @@ public class Day32 {
 
             return;
         }
-
-
         image[row][col] = newColor;
 
 
