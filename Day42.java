@@ -2,7 +2,6 @@ class Celebrity {
     boolean knows(int A, int B) {
         return true; 
     }
-
     int findCelebrity(int N) {
         int candidate = 0;
 
