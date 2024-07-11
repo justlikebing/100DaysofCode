@@ -10,7 +10,6 @@ class Celebrity {
                 candidate = i;
             }
         }
-
         for (int i = 0; i < N; i++) {
             if (i != candidate && (knows(candidate, i) || !knows(i, candidate))) {
                 return -1; // No celebrity found
