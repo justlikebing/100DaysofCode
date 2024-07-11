@@ -25,7 +25,6 @@ class Celebrity {
         int N1 = 2;
         int result1 = celebrityFinder.findCelebrity(N1);
         System.out.println("Example 1: " + result1);
-
         int N2 = 2;
         int result2 = celebrityFinder.findCelebrity(N2);
         System.out.println("Example 2: " + result2);
