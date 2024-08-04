@@ -1,5 +1,4 @@
 import java.util.LinkedList;
-
 // Custom implementation of a basic hash table with chaining for collision resolution
 public class Day23<K, V> {
     private static final int TABLE_SIZE = 10;
