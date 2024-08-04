@@ -4,7 +4,6 @@ public class Day23<K, V> {
     private static final int TABLE_SIZE = 10;
 
     private LinkedList<Entry<K, V>>[] table;
-
     // Entry class to represent key-value pairs
     private static class Entry<K, V> {
         K key;
