@@ -62,7 +62,6 @@ public class Day23<K, V> {
     }
 
     public static void main(String[] args) {
-        // Example usage:
         Day23<String, Integer> hashTable = new Day23<>();
         hashTable.put("one", 1);
         hashTable.put("two", 2);
