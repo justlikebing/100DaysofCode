@@ -4,7 +4,6 @@ import java.util.Stack;
 public class Day20 {
     private Stack<Integer> stack1 = new Stack<>();
     private Stack<Integer> stack2 = new Stack<>();
-
     public void enqueue(int item) {
         while (!stack1.isEmpty()) {
             stack2.push(stack1.pop());
