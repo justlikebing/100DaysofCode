@@ -32,7 +32,6 @@ public class Day20 {
 
     public static void main(String[] args) {
         Day20 queue = new Day20();
-
         queue.enqueue(1);
         queue.enqueue(2);
         queue.enqueue(3);
