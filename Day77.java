@@ -33,7 +33,7 @@ public class Day77 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int queries = scanner.nextInt(); // Number of queries
+        int queries = scanner.nextInt(); 
         QueueUsingArray queue = new QueueUsingArray(queries);
         List<Integer> result = new ArrayList<>();
         while (queries-- > 0) {
