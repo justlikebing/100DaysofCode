@@ -39,7 +39,7 @@ public class Day77 {
         while (queries-- > 0) {
             int type = scanner.nextInt(); // Query type
             if (type == 1) {
-                int element = scanner.nextInt(); // Element to enqueue
+                int element = scanner.nextInt(); 
                 queue.enqueue(element);
             } else if (type == 2) {
                 int dequeued = queue.dequeue();
