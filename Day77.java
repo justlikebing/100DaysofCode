@@ -37,7 +37,7 @@ public class Day77 {
         QueueUsingArray queue = new QueueUsingArray(queries);
         List<Integer> result = new ArrayList<>();
         while (queries-- > 0) {
-            int type = scanner.nextInt(); // Query type
+            int type = scanner.nextInt();
             if (type == 1) {
                 int element = scanner.nextInt(); 
                 queue.enqueue(element);
