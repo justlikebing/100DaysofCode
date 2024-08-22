@@ -16,7 +16,7 @@ class Celebrity {
             }
         }
 
-        return candidate; // Found the celebrity
+        return candidate; 
     }
 
     public static void main(String[] args) {
