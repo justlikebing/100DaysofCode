@@ -23,7 +23,6 @@ public class EditDistance {
         
         return dp[m][n];
     }
-
     public static void main(String[] args) {
         EditDistance obj = new EditDistance();
         String S = "kitten";
