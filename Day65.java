@@ -25,6 +25,7 @@ public class EditDistance {
     }
     public static void main(String[] args) {
         EditDistance obj = new EditDistance();
+        
         String S = "kitten";
         String T = "sitting";
         System.out.println("Edit Distance: " + obj.minDistance(S, T)); // Output: 3
