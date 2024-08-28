@@ -29,8 +29,6 @@ public class Day64 {
 
         boolean firstRowHasZero = false;
         boolean firstColHasZero = false;
-
-        // Check if the first row has a zero
         for (int j = 0; j < M; j++) {
             if (matrix[0][j] == 0) {
                 firstRowHasZero = true;
