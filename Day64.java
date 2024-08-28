@@ -15,7 +15,7 @@ public class Day64 {
 
         zeroMatrix(matrix);
 
-        // Output matrix
+
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 System.out.print(matrix[i][j] + " ");
