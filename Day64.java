@@ -77,7 +77,7 @@ public class Day64 {
             }
         }
 
-        // Zero out first column if needed
+
         if (firstColHasZero) {
             for (int i = 0; i < N; i++) {
                 matrix[i][0] = 0;
