@@ -12,7 +12,6 @@ public class Day64 {
                 matrix[i][j] = scanner.nextInt();
             }
         }
-
         zeroMatrix(matrix);
 
 
