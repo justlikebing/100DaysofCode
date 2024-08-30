@@ -16,7 +16,6 @@ public class Day7 {
                 slow = slow.next;
             }
             slow.next = slow.next.next;
-
             return start.next;
 
         }
