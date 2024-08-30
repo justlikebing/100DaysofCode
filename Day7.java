@@ -1,6 +1,7 @@
 public class Day7 {
     public static void main(String[] args){
     }
+    
     class solution{
         public ListNode removeNthEle(ListNode head, int n){
             ListNode start = new ListNode();
