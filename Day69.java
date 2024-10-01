@@ -17,7 +17,6 @@ public class Day69 {
         
         return count;
     }
-    
     public static void main(String[] args) {
         SubarraysWithXOR obj = new SubarraysWithXOR();
         int[] A = {1, 2, 3, 2};
