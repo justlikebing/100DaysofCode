@@ -13,8 +13,7 @@ public class Day69 {
             int target = xor ^ B;
             count += prefixXOR.getOrDefault(target, 0);
             prefixXOR.put(xor, prefixXOR.getOrDefault(xor, 0) + 1);
-        }
-        
+        } 
         return count;
     }
     public static void main(String[] args) {
