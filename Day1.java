@@ -12,7 +12,6 @@ class Day1{
                 maxProfit = prices[i] - minprize;
             
             }
-        
         }
         return maxProfit;
     }
