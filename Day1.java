@@ -9,8 +9,7 @@ class Day1{
                 minprize = prices[i];
             }
             else if(prices[i] - minprize > maxProfit){
-                maxProfit = prices[i] - minprize;
-            
+                maxProfit = prices[i] - minprize;    
             }
         }
         return maxProfit;
