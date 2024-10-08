@@ -25,12 +25,13 @@ public class Day32 {
         int[][] result1 = floodFill(image1, sr1, sc1, color1);
         printImage(result1);
 
+      
         int[][] image2 = {{0, 0, 0}, {0, 0, 0}};
         int sr2 = 0, sc2 = 0, color2 = 0;
         int[][] result2 = floodFill(image2, sr2, sc2, color2);
         printImage(result2);
     }
-
+    
     private static void printImage(int[][] image) {
         for (int[] row : image) {
             for (int pixel : row) {
