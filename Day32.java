@@ -14,7 +14,6 @@ public class Day32 {
         }
         image[row][col] = newColor;
 
-
         fill(image, row - 1, col, originalColor, newColor); // Up
         fill(image, row + 1, col, originalColor, newColor); // Down
         fill(image, row, col - 1, originalColor, newColor); // Left
