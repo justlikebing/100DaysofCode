@@ -4,7 +4,6 @@ public class Day32 {
         if (originalColor == newColor) {
             return image;
         }
-
         fill(image, sr, sc, originalColor, newColor);
         return image;
     }
