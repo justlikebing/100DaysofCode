@@ -19,7 +19,6 @@ class Day36 {
             occurrences.add(1); // Pattern found at the beginning
         }
 
-        // Precompute the value of R^(m-1) for rolling hash
         long power = 1;
         for (int i = 0; i < m - 1; i++) {
             power = (power * 256) % 101; // 101 is a prime number
