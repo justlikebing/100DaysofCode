@@ -4,8 +4,10 @@ public class Day47 {
 
     public static String longestCommonPrefix(String[] arr) {
         if (arr.length == 0) {
+            
             return "";
         }
+        
 
         String prefix = arr[0];
 
