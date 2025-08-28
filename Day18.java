@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
+import java.util.*;
 
 public class Day18 {
 
@@ -33,3 +34,4 @@ public class Day18 {
         System.out.println("Result: " + java.util.Arrays.toString(result));
     }
 }
+
