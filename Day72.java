@@ -7,6 +7,7 @@ public class Day72 {
         char[][] board = new char[n][n];
         for (int i = 0; i < n; i++) {
             Arrays.fill(board[i], '.');
+            
         }
         solveNQueensHelper(board, 0, result);
         return result;
