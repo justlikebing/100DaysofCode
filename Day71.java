@@ -33,6 +33,7 @@ public class Day71 {
             else if (num == candidate2)
                 count2++;
         }
+        
         if (count1 > nums.length / 3)
             result.add(candidate1);
         if (count2 > nums.length / 3)
@@ -46,6 +47,6 @@ public class Day71 {
         
         int[] nums = {2, 2, 1, 3, 1, 1, 3, 1, 1};
         List<Integer> result = solution.majorityElement(nums);
-        System.out.println(result);
+        System.out.print(result);
     }
 }
