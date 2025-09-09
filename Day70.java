@@ -29,7 +29,6 @@ public class Day70 {
         
         return dummy.next;
     }
-    
     public static void main(String[] args) {
         RemoveKthNode solution = new RemoveKthNode();
         
