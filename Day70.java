@@ -7,6 +7,7 @@ class ListNode {
     }
 }
 
+
 public class Day70 {
     public ListNode removeNthFromEnd(ListNode head, int k) {
         ListNode dummy = new ListNode(0);
